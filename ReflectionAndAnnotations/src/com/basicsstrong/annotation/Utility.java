@@ -8,7 +8,7 @@ public class Utility {
 	}
 	
 	@MostUsed("Python")
-	void doStuff(String arg) {
+	public void doStuff(String arg) {
 		System.out.println("Operating on : "+ arg);
 	}
 	

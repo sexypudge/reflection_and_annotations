@@ -14,7 +14,7 @@ public class Entity {
 		this(0, "id");
 	}
 
-	public int getVal() {
+	public final int getVal() {
 		return val;
 	}
 
@@ -30,4 +30,11 @@ public class Entity {
 		this.type = type;
 	}
 
+	@Override
+	public String toString() {
+		return "Entity{" +
+				"val=" + val +
+				", type='" + type + '\'' +
+				'}';
+	}
 }

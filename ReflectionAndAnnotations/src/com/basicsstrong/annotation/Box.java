@@ -1,6 +1,6 @@
 package com.basicsstrong.annotation;
 
-public class Box< @NonEmpty T> {
+public class Box< @NonEmpty @ReadOnly T> {
 	
 	@NonEmpty int size;
 	T type;

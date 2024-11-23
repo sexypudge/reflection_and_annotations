@@ -8,7 +8,7 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.Target;
 
 @Retention(RUNTIME)
-@Target({ TYPE_PARAMETER, TYPE_USE })
+@Target({TYPE_USE })
 public @interface ReadOnly {
 
 }

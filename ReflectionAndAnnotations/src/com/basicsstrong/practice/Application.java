@@ -12,7 +12,7 @@ public class Application {
 		
 		Hibernate<TransactionHistory> hibernate = Hibernate.getConnection();
 		
-//		hibernate.write(sangeeta);
+		hibernate.write(sangeeta);
 //		hibernate.write(neha);
 //		hibernate.write(mohit);
 //		hibernate.write(josh);
